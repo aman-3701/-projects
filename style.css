@@ -1,0 +1,133 @@
+
+body{
+    padding:  0px ;
+    margin: 0px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar ::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+ z-index: -1;
+    opacity: .89;
+
+}
+ 
+ 
+ .search{
+    position: fixed;
+    padding: 20px 0 ;
+    z-index: 3;
+    width: auto;
+
+} 
+li{
+ display:  flex;
+ font-size: medium;
+ padding: 7px;
+}
+
+  #navbar ul {
+    display: flex;
+    font-size: 19px;
+   border-radius: 9px;
+
+text-decoration: none;
+}
+ #navbar ul li a{
+    text-decoration: none;
+    color : white ;
+ display: flex;}
+
+    #navbar ul li a:hover{
+   color: black;
+   background-color: aqua;
+    
+    border-radius: 8px;
+  }
+   a:hover{
+        color: rgb(133, 196, 215);
+        background-color: white
+    }
+    .box{
+        background-color: rgb(97, 130, 183);
+    }
+#logo{
+    margin: 10px 30px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+
+}
+button{
+    border-radius: 9px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 150px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content:"";
+    background:url(image\ foof.jpg) no-repeat center center/cover;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .89;}
+    #home h1{
+
+        color:white;
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #home p {
+        color: white;
+        text-align:  center;
+        font-size: 1.5rem;
+    }
+
+.primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.btn{
+     padding: 6px 20px;
+     border: 2px solid white;
+     color: white;
+     margin: 17px;
+     font-size: 1.5 rem;
+     background-color: aqua;
+
+     border-radius: 10px;
+     cursor: pointer;
+}
+.box img{
+    padding: 0px;
+    margin:  0px;
+   
+}
+#container{
+    position: relative;
+}
+
+#container  h1{
+    color :white;
+
+}
+#services box{
+height: 100;
+}
